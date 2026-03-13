@@ -37,4 +37,4 @@ alert tcp any any -> any 445 (msg:"Possible EternalBlue - SMB Attack"; flags:S; 
 - Disable SMBv1: `Set-SmbServerConfiguration -EnableSMB1Protocol $false`
 - Block port 445 at the firewall
 
-📄 See `report.pdf` for full walkthrough with screenshots.
+📄 See `Eternalblue.pdf` for full walkthrough with screenshots.
